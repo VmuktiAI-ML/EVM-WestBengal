@@ -1,0 +1,20 @@
+# PyTorch for CUDA 12.4
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# Core Vision and AI
+ultralytics>=8.3.0
+supervision>=0.25.0
+opencv-python>=4.8.0
+
+# Data and Storage
+pandas
+requests
+azure-storage-blob
+
+# Performance and Monitoring
+watchdog
+uvloop; sys_platform != 'win32'
+numpy<2.0.0  # Kept below 2.0 for better compatibility with older YOLO builds
