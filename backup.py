@@ -131,7 +131,7 @@ log = logging.getLogger(__name__)
 # CONFIGURATION
 # ============================================================
 
-INPUT_PATH = "indoor9.csv"
+INPUT_PATH = "indoor1.csv"
 
 VIDEO_EXTENSIONS         = ('.flv', '.mp4', '.avi', '.mkv', '.mov')
 FOLDER_POLL_INTERVAL_SEC = 30
